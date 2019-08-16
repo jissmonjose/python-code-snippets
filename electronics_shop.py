@@ -1,3 +1,10 @@
+# Description
+#  ------------
+# Want to buy a keyboard and a driver together with in the given max_price 60.
+# given a list of price for keyboards and drivers.
+# if total price of both cost more than max_price then it is not considered.
+
+
 class Electronics:
     def __init__(self, keyboards, drivers, max_price):
         self.k = keyboards
@@ -22,10 +29,15 @@ class Electronics:
                 total = each + each2
                 if total <= self.b:
                     price.append(total)
-        return max(price)
+        return f"Total Price spend is: {max(price)}"
 
 
 e1 = Electronics([40, 50, 60], [5, 8, 12], 60)
 e1.check_keyboard()
 e1.check_drivers()
 e1.display()
+
+# Output:
+# 'Total Price spend is: 58'
+
+
