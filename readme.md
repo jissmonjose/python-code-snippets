@@ -10,8 +10,9 @@ ____________
 2. Bon Appetit 
 
     [Problem Description](https://www.hackerrank.com/challenges/bon-appetit/problem)
+__________________
 
-###Web Scraping
+### Web Scraping
 ---------------
 web scraping using BeautifulSoup library.
 
