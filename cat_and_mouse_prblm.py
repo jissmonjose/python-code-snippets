@@ -21,3 +21,8 @@ position_B = int(input('Enter Position of Cat B: '))
 position_C = int(input('Enter Position of Mouse C: '))
 cat_mouse(position_A, position_B, position_C)
 
+# Output:
+# Enter Position of Cat A: >? 3
+# Enter Position of Cat B: >? 2
+# Enter Position of Mouse C: >? 5
+# Cat A
