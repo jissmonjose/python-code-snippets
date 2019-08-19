@@ -10,6 +10,11 @@ ____________
 2. Bon Appetit 
 
     [Problem Description](https://www.hackerrank.com/challenges/bon-appetit/problem)
+
+3. Cat and Mouse
+
+    [Problem Description](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem)
+    
 __________________
 
 ### Web Scraping
