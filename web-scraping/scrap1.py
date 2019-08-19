@@ -9,14 +9,16 @@ def scraptheweb(url):
     soup = BeautifulSoup(source, 'lxml')
     with open('./csv-files/file.csv', 'w') as file:
         csv_writer = writer(file)
-        csv_writer.writerow(['Headlines', 'Summary', 'Youtube URL', 'Date & Time', 'Author', 'Tags'])
+        csv_writer.writerow(
+            ['Headlines', 'Summary', 'Youtube URL', 'Date & Time', 'Author', 'Tags'])
         for article in soup.find_all('article'):
             h = article.a.text
             # for article in soup.find_all('article'):
             p = article.find('div', class_='entry-content').p.text
             p = str(p)
             smry = p.split(',')[1].split('.')[0]
-            vid_id = article.find('iframe', class_='youtube-player')['src'].split('/')[4].split('?')[0]
+            vid_id = article.find(
+                'iframe', class_='youtube-player')['src'].split('/')[4].split('?')[0]
             youtube_url = f"https://youtube.com/watch?v={vid_id}"
             time = article.find('time', class_='entry-time').text
             author = article.find('span', class_='entry-author-name').text
