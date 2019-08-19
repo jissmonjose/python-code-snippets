@@ -15,6 +15,10 @@ ____________
 
     [Problem Description](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem)
     
+4. Breaking the Records
+    
+    [Problem Description](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem)
+
 __________________
 
 ### Web Scraping
