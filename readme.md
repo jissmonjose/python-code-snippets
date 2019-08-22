@@ -22,6 +22,10 @@ ____________
 5. The Hurdles Race
 
     [Problem Description ](https://www.hackerrank.com/challenges/the-hurdle-race/problem)
+
+6. Angry Professor
+    
+    [Problem Description](https://www.hackerrank.com/challenges/angry-professor/problem)
 ______________
 
 ### Web Scraping
