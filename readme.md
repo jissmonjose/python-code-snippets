@@ -19,7 +19,10 @@ ____________
     
     [Problem Description](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem)
 
-__________________
+5. The Hurdles Race
+
+    [Problem Description ](https://www.hackerrank.com/challenges/the-hurdle-race/problem)
+______________
 
 ### Web Scraping
 
